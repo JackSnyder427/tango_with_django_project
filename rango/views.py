@@ -5,3 +5,6 @@ def index(request):
     context_dict = {'boldmessage': 'DO NOT BANGO THE SHMANGO'}
 
     return render(request, 'rango/index.html', context=context_dict)
+
+def about(request):
+    return render(request, 'rango/about.html')

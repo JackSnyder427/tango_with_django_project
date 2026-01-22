@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+
+{% load static %}
+
 <html>
 
     <head>
@@ -6,13 +9,15 @@
     </head>
 
     <body>
-        <h1>Rango shmango</h1>
+        <h1>Rango shmango...</h1>
         <div>
             flango...  BIDANGO!!! <br />
             <strong>{{ boldmessage }}</strong><br />
         </div>
         <div>
             <a href="/rango/about/">Abango</a><br />
+            <img src="{% static 'images/evilGoblin.png' %}" 
+                alt="HE'S TOO EVILLL AAAAAAAA" height="1000px"/>
         </div>
     </body>
 

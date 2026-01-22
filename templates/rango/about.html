@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+{% load static %}
+
+<html>
+
+    <head>
+        <title>Rango Bango</title>
+    </head>
+
+    <body>
+        <h1>Rango shmango...</h1>
+        <div>
+            here is the about page!<br />
+            <h3> This tutorial has been... <strong>he's coming<strong> :O</h3>
+        </div>
+        <div>
+            <a href="../../">Indango</a><br />
+            <img src="{{ MEDIA_URL }}evilCat.jpg"
+                alt="super evil" width="1000px"/>
+            <img src="{% static 'images/evilGoblin.png' %}" 
+                alt="pathetic evilness" width="500px"/>
+        </div>
+    </body>
+
+</html>
